@@ -1,6 +1,4 @@
- 
-
-20241116 homework BMI計算
+# 20241116 homework BMI計算
 def get_status(bmi:float)->str:
     '''
     docstring
@@ -32,7 +30,9 @@ def BMI_math(height_cm:float, weight_kg:float)->tuple[float,str]:
     bmi_str = get_status(bmi_kg_m2)
     return bmi_kg_m2, bmi_str
 
-def main():p
+def main():
+    
+if __name__=='__main__':
     while(True):
         try:
             height_cm = float(input("請輸入身高(公分):"))
@@ -44,6 +44,3 @@ def main():p
     
 print(f"您的BMI值是{bmi_value}\n您的體重{bmi_str}")
 print("程式結束")
-
-if __name__ == '__main__':
-    main()
