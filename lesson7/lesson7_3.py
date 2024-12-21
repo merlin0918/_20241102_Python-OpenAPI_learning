@@ -1,6 +1,6 @@
-import streamlist as st
+import streamlit as st
 
-st.title("counter Example")
+st.title("次數的範例")
 count = 0
 
 increament = st.button('每次加1')
